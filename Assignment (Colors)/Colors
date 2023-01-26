@@ -2,6 +2,7 @@
 <html>
   <head>
     <style>
+      div {background-color: #F0F8FF;} /*aliceblue*/
       h1 {color: red;}
       h2 {color: #00f;} /* blue */
       h3 {color: rgb(0, 128, 0);} /* green */
@@ -9,9 +10,11 @@
     </style>
   </head>
   <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
+    <div>
+      <h1>Red Heading</h1>
+      <h2>Blue Heading</h2>
+      <h3>Green Heading</h3>
+      <h4>Purple Heading</h4>
+    </div>
   </body>
 </html>
