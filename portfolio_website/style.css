@@ -38,7 +38,7 @@
 
 .about h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     margin-bottom: 10px;
     color: #F9FAF8;
 }
@@ -127,29 +127,65 @@
 
 /*---Contact Info---*/
 .contact-info {
-    text-align: center;
-  }
-  
-  .contact-info h3 {
+    text-align: left;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.contact-info h3 {
     margin: 0;
     padding: 0;
     font-size: 1.5em;
-  }
-  
-  .contact-info p {
+    display: block;
+    color: #F9FAF8;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+.contact-info p {
     margin: 0;
     padding: 0;
     font-size: 1em;
-  }
-  
-  .contact-info button {
-    float: right;
+    display: block;
+    color: #E5E7EB;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 70px;
+    margin-right: -100px;
+}
+
+.contact-info button {
     padding: 5px 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid white;
     cursor: pointer;
-  }
+    border-radius: 5px;
+    position: absolute;
+    left: -5;
+    width: 75px; 
+    height: 25px; 
+}
+.divlight{
+    border: 30px solid white;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    
+}
+
   
 
 
