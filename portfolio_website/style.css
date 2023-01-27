@@ -111,7 +111,7 @@
     text-align: center;
     background-color: #E5E7EB;
     width: auto;
-    height: 200px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +183,10 @@
     justify-content: center;
 }
 .footer{
-    
+    background-color: #1F2937; 
+    text-align: center;
+    padding: 20px;
+    color: #F9FAF8; 
 }
 
   
