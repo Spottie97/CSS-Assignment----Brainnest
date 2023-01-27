@@ -1,1 +1,22 @@
-
+.header {
+    background-color: #1F2937;
+    padding: 10px;
+}
+.header img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    color: #F9FAF8;
+}
+.header nav {
+    float: right;
+    margin-top: 0 auto;
+    margin-right: 250px;
+}
+.header nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
