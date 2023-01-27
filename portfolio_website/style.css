@@ -1,22 +1,92 @@
+.divdark{
+    background-color: #1F2937;
+}
 .header {
     background-color: #1F2937;
-    padding: 10px;
+    padding: 30px;
+    position: relative;
 }
 .header img {
-    float: left;
+    position: absolute;
+    top: 0px;
     width: 50px;
     height: 50px;
     color: #F9FAF8;
+    font-size: 24px;
 }
 .header nav {
     float: right;
-    margin-top: 0 auto;
-    margin-right: 250px;
+    margin-top: -30px;
+    margin-right: 150px;
 }
 .header nav a {
-    margin-left: 40px;
+    margin-left: 20px;
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    
+
+}
+.about {
+    text-align: left;
+    background-color:#1F2937 ;
+    padding: 30px;
+    position: relative;
+}
+
+.about h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: 10px;
+    color: #F9FAF8;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #E5E7EB;
+}
+
+.about img {
+    position: absolute;
+    right: 20%; 
+    top: 10px; 
+    width: 280px; 
+    height: 270px; 
+}
+
+.about button {
+    position:absolute;
+    top: 265px;
+    right: 88%;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    float: left;
+}
+.project{
+    background-color: #fff;
+    color: #1F2937;
+}
+.project h2{
+    text-align: center;
+}
+.project ul li{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+.project ul li::before{
+    content: "";
+    position: absolute;
+    top: -10px; 
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 10px; 
+    background-color: white; 
+    border-top: 2px solid blue; 
+    z-index: -1; 
 }

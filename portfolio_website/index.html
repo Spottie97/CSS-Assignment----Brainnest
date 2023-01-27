@@ -6,37 +6,38 @@
   </head>
   <!--Body-->
   <body>
-    <!--Header-->
-    <header class="header">
-      <nav style="float: right" class="header nav">
-        <a href="#about" class="header nav a">About</a>
-        <a href="#project" class="header nav a">Projects</a>
-        <a href="#contact" class="header nav a">Contact</a>
-      </nav>
-      <img src="logo.png" alt="Logo" class="header img" />
-    </header>
-    <!--About-->
-    <div class="div" style="clear: both" alt="Bio"></div>
-    <div>
-      <h1>Welcome to my Portfolio</h1>
-      <p>Check out my work and learn more about me.</p>
-      <img
-        src="./images/me_cropped.jpg"
-        alt="Portfolio Image"
-        style="float: right"
-      />
-      <button>Sign Up</button>
+    <div class="divdark">
+      <!--Header-->
+      <header class="header">
+        <nav style="float: right" class="header nav">
+          <a href="#about" class="header nav a">About</a>
+          <a href="#project" class="header nav a">Projects</a>
+          <a href="#contact" class="header nav a">Contact</a>
+        </nav>
+        <img src="./images/header_logo.svg" alt="Logo" class="header img" />
+      </header>
+      <!--About-->
+      <div class="about" style="clear: both" alt="Bio">
+        <h1 class="about h1">Welcome to my Portfolio</h1>
+        <p class="about p">Check out my work and learn more about me.</p>
+        <img
+          src="./images/me_cropped.jpg"
+          alt="Portfolio Image"
+          class="about img"
+        />
+        <button class="about button">Sign Up</button>
+      </div>
     </div>
     <!--Projects-->
-    <div style="text-align: center" alt="Projects Section">
-      <h2>My Projects</h2>
-      <ul
-        style="list-style-type: none; display: inline-block; text-align: center"
-      >
-        <li style="display: inline-block"><a href="#item1">Item 1</a></li>
-        <li style="display: inline-block"><a href="#item2">Item 2</a></li>
-        <li style="display: inline-block"><a href="#item3">Item 3</a></li>
-        <li style="display: inline-block"><a href="#item4">Item 4</a></li>
+    <div class="project" alt="Projects Section">
+      <h2 class="project h2">My Projects</h2>
+      <ul class="project ul li">
+        <div class="project ul li::before">
+          <li><a href="#item1">Item 1</a></li>
+          <li><a href="#item2">Item 2</a></li>
+          <li><a href="#item3">Item 3</a></li>
+          <li><a href="#item4">Item 4</a></li>
+        </div>
       </ul>
     </div>
     <!--Favourite Quote-->
