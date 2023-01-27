@@ -1,6 +1,7 @@
 .divdark{
     background-color: #1F2937;
 }
+/*---Header---*/
 .header {
     background-color: #1F2937;
     padding: 30px;
@@ -9,8 +10,8 @@
 .header img {
     position: absolute;
     top: 0px;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -26,6 +27,8 @@
     font-size: 18px;
 
 }
+
+/*---About---*/
 .about {
     text-align: left;
     background-color:#1F2937 ;
@@ -66,6 +69,8 @@
     font-size: 14px;
     float: left;
 }
+
+/*---Projects---*/
 .project{
     background-color: #fff;
     color: #1F2937;
@@ -73,20 +78,78 @@
 .project h2{
     text-align: center;
 }
-.project ul li{
-    display: inline-block;
-    position: relative;
-    margin: 0;
+.project ul{
+    display: flex;
+    justify-content: center;
 }
+.project ul li{
+    display:inline-block;
+    position: relative;
+    margin: 190px 100px;
+    z-index: 1;
+  }
 .project ul li::before{
     content: "";
-    position: absolute;
-    top: -10px; 
-    left: 0;
+    position: absolute; 
+    top: -180px; 
+    left: -85px;
     right: 0;
-    width: 100%; 
-    height: 10px; 
+    width: 500%; 
+    height: 170px; 
     background-color: white; 
-    border-top: 2px solid blue; 
-    z-index: -1; 
+    border-top: 2px solid #3882F6;
+    border-bottom: 2px solid #3882F6;
+    border-left: 2px solid #3882F6;
+    border-right: 2px solid #3882F6; 
+    z-index: -1;
+    border-radius: 5%;
+    
 }
+
+/*---Quote---*/
+.quote {
+    text-align: center;
+    background-color: #E5E7EB;
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: light italic;
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+}
+
+/*---Contact Info---*/
+.contact-info {
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+  }
+  
+  .contact-info button {
+    float: right;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+
